@@ -1,0 +1,88 @@
+body {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  font-size: 2rem;
+  font-family: monospace;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+  overflow-y: hidden;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  display: block;
+  margin: 0.5rem 0 1.2rem;
+  height: 25px;
+  width: 230px;
+  text-align: center;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+  padding: 20px 0px;
+  font-size: 1.1rem;
+  font-family: monospace;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.resultadoCep {
+  font-size: 1.2rem;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footer {
+  padding: 25px 0px;
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  justify-content: space-around;
+  color: #fff;
+}
+
+.footer h1 {
+  text-align: center;
+  color: #999;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.footer h3 {
+  /* margin-right: 130px; */
+  font-size: 12px;
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+}
+
+.footer span {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.footer i {
+  color: #fff;
+  font-size: 2rem;
+}
